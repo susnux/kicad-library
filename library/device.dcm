@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 21/03/2013 11:44:05
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 7SEGM
 D Afficheur Leds 7 segments
@@ -111,6 +111,11 @@ $ENDCMP
 $CMP FILTER
 D Filtre EMI
 K EMI
+$ENDCMP
+#
+$CMP FUSE_(IEC)
+D Fuse IEC (international) symbol
+K fuse
 $ENDCMP
 #
 $CMP LED
